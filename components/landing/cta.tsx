@@ -7,16 +7,16 @@ const CTA10 = () => {
         <div className="flex w-full flex-col gap-16 overflow-hidden rounded-lg bg-accent p-8 md:rounded-xl lg:flex-row lg:items-center lg:p-16">
           <div className="flex-1">
             <h3 className="mb-3 text-2xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
-              Ready to Get Started?
+              Ready to Transform Your Sales Process?
             </h3>
             <p className="text-muted-foreground lg:text-lg">
-              Take the next step towards transforming your workflow with our platform
+              Start your free trial today and see how our CRM can help you close more deals
             </p>
           </div>
           <div className="flex shrink-0 flex-col gap-2 sm:flex-row">
-            <Button variant="outline"><a href="https://vly.ai">Learn More</a></Button>
+            <Button variant="outline"><a href="https://vly.ai">Book Demo</a></Button>
             <Button asChild>
-              <a href="/dashboard">Get Started</a>
+              <a href="/dashboard">Start Free Trial</a>
             </Button>
           </div>
         </div>

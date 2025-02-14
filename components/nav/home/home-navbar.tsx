@@ -85,7 +85,7 @@ const Navbar1 = () => {
         <nav className="hidden justify-between lg:flex">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
-              <span className="text-lg font-semibold">project name</span>
+              <span className="text-lg font-semibold">SalesCRM</span>
             </div>
             <div className="flex items-center">
               <a

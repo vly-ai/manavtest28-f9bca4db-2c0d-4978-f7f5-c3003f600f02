@@ -6,17 +6,18 @@ const Testimonial10 = () => {
       <div className="container">
         <div className="flex flex-col items-center text-center">
           <p className="mb-16 max-w-4xl px-8 font-medium lg:text-3xl">
-            &ldquo;Add a compelling customer testimonial that highlights the key benefits
-            and value of your product or service.&rdquo;
+            &ldquo;This CRM has transformed how we manage our customer relationships. 
+            The automation features alone have saved our sales team countless hours, 
+            and the insights we get have helped us close 40% more deals.&rdquo;
           </p>
           <div className="flex items-center gap-2 md:gap-4">
             <Avatar className="size-12 md:size-16">
               <AvatarImage src="https://shadcnblocks.com/images/block/avatar-1.webp" />
-              <AvatarFallback>CN</AvatarFallback>
+              <AvatarFallback>JD</AvatarFallback>
             </Avatar>
             <div className="text-left">
-              <p className="text-sm font-medium md:text-base">Customer Name</p>
-              <p className="text-sm text-muted-foreground md:text-base">Customer Role, Company</p>
+              <p className="text-sm font-medium md:text-base">Sarah Johnson</p>
+              <p className="text-sm text-muted-foreground md:text-base">Sales Director, TechCorp</p>
             </div>
           </div>
         </div>

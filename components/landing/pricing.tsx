@@ -21,10 +21,10 @@ const Pricing2 = () => {
       <div className="container">
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 text-center">
           <h2 className="text-pretty text-4xl font-bold lg:text-6xl">
-            Our Pricing Plans
+            Simple, Transparent Pricing
           </h2>
           <p className="text-muted-foreground lg:text-xl">
-            Simple, transparent pricing for everyone
+            Choose the plan that best fits your business needs
           </p>
           <div className="flex items-center gap-3 text-lg">
             Monthly
@@ -38,16 +38,16 @@ const Pricing2 = () => {
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
                 <CardTitle>
-                  <p>Basic Plan</p>
+                  <p>Starter</p>
                 </CardTitle>
                 <p className="text-sm text-muted-foreground">
-                  Perfect for getting started
+                  For small teams getting started
                 </p>
                 <span className="text-4xl font-bold">
                   {isYearly ? "$15" : "$19"}
                 </span>
                 <p className="text-muted-foreground">
-                  Billed {isYearly ? "$180" : "$228"} anually
+                  per user/month, billed {isYearly ? "annually" : "monthly"}
                 </p>
               </CardHeader>
               <CardContent>
@@ -55,26 +55,26 @@ const Pricing2 = () => {
                 <ul className="space-y-4">
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Up to 1,000 contacts</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Basic lead management</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Email integration</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Basic reporting</span>
                   </li>
                 </ul>
               </CardContent>
               <CardFooter className="mt-auto">
                 <Button className="w-full" asChild>
                   <a href="/dashboard">
-                    Get Started
+                    Start Free Trial
                     <ArrowRight className="ml-2 size-4" />
                   </a>
                 </Button>
@@ -83,7 +83,7 @@ const Pricing2 = () => {
             <Card className="flex w-80 flex-col justify-between text-left">
               <CardHeader>
                 <CardTitle>
-                  <p>Pro Plan</p>
+                  <p>Professional</p>
                 </CardTitle>
                 <p className="text-sm text-muted-foreground">
                   For growing businesses
@@ -92,37 +92,37 @@ const Pricing2 = () => {
                   {isYearly ? "$35" : "$49"}
                 </span>
                 <p className="text-muted-foreground">
-                  Billed {isYearly ? "$420" : "$588"} anually
+                  per user/month, billed {isYearly ? "annually" : "monthly"}
                 </p>
               </CardHeader>
               <CardContent>
                 <Separator className="mb-6" />
                 <p className="mb-3 text-lg font-semibold">
-                  Everything in Plus, and:
+                  Everything in Starter, plus:
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Unlimited contacts</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Advanced analytics</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Sales forecasting</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CircleCheck className="size-4" />
-                    <span>Lorem ipsum dolor sit.</span>
+                    <span>Workflow automation</span>
                   </li>
                 </ul>
               </CardContent>
               <CardFooter className="mt-auto">
                 <Button className="w-full" asChild>
                   <a href="/dashboard">
-                    Get Started
+                    Start Free Trial
                     <ArrowRight className="ml-2 size-4" />
                   </a>
                 </Button>

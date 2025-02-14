@@ -1,48 +1,48 @@
 import {
-    DollarSign,
-    MessagesSquare,
-    PersonStanding,
+    BarChart3,
+    Users,
+    MessageSquare,
     Timer,
     Zap,
-    ZoomIn,
+    LineChart,
   } from "lucide-react";
   
   const features = [
     {
-      title: "Feature 1 Name",
+      title: "Lead Management",
       description:
-        "Replace with specific feature description. Explain the benefit to the user in 1-2 sentences.",
+        "Track and manage leads through your sales pipeline with automated scoring and prioritization.",
+      icon: <Users className="size-4 md:size-6" />,
+    },
+    {
+      title: "Sales Analytics",
+      description:
+        "Get real-time insights into your sales performance with customizable dashboards and reports.",
+      icon: <BarChart3 className="size-4 md:size-6" />,
+    },
+    {
+      title: "Contact Management",
+      description:
+        "Keep all your customer information organized and accessible in one centralized database.",
+      icon: <MessageSquare className="size-4 md:size-6" />,
+    },
+    {
+      title: "Task Automation",
+      description:
+        "Automate repetitive tasks and workflows to save time and reduce manual effort.",
       icon: <Timer className="size-4 md:size-6" />,
     },
     {
-      title: "Feature 2 Name",
+      title: "Email Integration",
       description:
-        "Replace with specific feature description. Explain the benefit to the user in 1-2 sentences.",
+        "Seamlessly integrate with your email to track communications and set follow-up reminders.",
       icon: <Zap className="size-4 md:size-6" />,
     },
     {
-      title: "Feature 3 Name",
+      title: "Performance Tracking",
       description:
-        "Replace with specific feature description. Explain the benefit to the user in 1-2 sentences.",
-      icon: <ZoomIn className="size-4 md:size-6" />,
-    },
-    {
-      title: "Feature 4 Name",
-      description:
-        "Replace with specific feature description. Explain the benefit to the user in 1-2 sentences.",
-      icon: <PersonStanding className="size-4 md:size-6" />,
-    },
-    {
-      title: "Feature 5 Name",
-      description:
-        "Replace with specific feature description. Explain the benefit to the user in 1-2 sentences.",
-      icon: <DollarSign className="size-4 md:size-6" />,
-    },
-    {
-      title: "Feature 6 Name",
-      description:
-        "Replace with specific feature description. Explain the benefit to the user in 1-2 sentences.",
-      icon: <MessagesSquare className="size-4 md:size-6" />,
+        "Monitor team performance and track progress towards sales goals in real-time.",
+      icon: <LineChart className="size-4 md:size-6" />,
     },
   ];
   
@@ -52,7 +52,7 @@ import {
         <div className="container mx-auto max-w-screen-xl">
           <p className="mb-4 text-xs text-muted-foreground md:pl-5">Features</p>
           <h2 className="text-3xl font-medium md:pl-5 lg:text-4xl">
-            Our Core Features
+            Everything You Need to Manage Customer Relationships
           </h2>
           <div className="mx-auto mt-14 grid gap-x-20 gap-y-8 md:grid-cols-2 md:gap-y-6 lg:mt-20">
             {features.map((feature, idx) => (
@@ -77,4 +77,3 @@ import {
   };
   
   export default Feature17;
-  

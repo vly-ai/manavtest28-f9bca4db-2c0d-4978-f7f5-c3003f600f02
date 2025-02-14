@@ -11,29 +11,29 @@ const Hero1 = () => {
         <div className="grid items-center gap-8 lg:grid-cols-2">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <Badge variant="outline">
-              New Release
+              Modern CRM Solution
               <ArrowDownRight className="ml-2 size-4" />
             </Badge>
             <h1 className="my-6 text-pretty text-4xl font-bold lg:text-6xl">
-              Your Product Name
+              Streamline Your Customer Relationships
             </h1>
             <p className="mb-8 max-w-xl text-muted-foreground lg:text-xl">
-              Your product's main value proposition goes here. Explain what your product does
-              and why users should care in 2-3 compelling sentences.
+              Manage leads, track deals, and nurture customer relationships all in one place. 
+              Our intuitive CRM helps you close more deals and grow your business faster.
             </p>
             <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
               <Button className="w-full sm:w-auto" asChild>
-                <a href="/dashboard">Get Started</a>
+                <a href="/dashboard">Start Free Trial</a>
               </Button>
               <Button variant="outline" className="w-full sm:w-auto" onClick={() => { redirect('https://vly.ai')}}>
-                Learn More
+                Book Demo
                 <ArrowDownRight className="ml-2 size-4" />
               </Button>
             </div>
           </div>
           <img
             src="/block.png"
-            alt="placeholder hero"
+            alt="CRM Dashboard Preview"
             className="max-h-96 w-full rounded-md object-cover"
           />
         </div>

@@ -2,21 +2,21 @@ const sections = [
     {
       title: "Product",
       links: [
-        { name: "Overview", href: "https://vly.ai" },
-        { name: "Pricing", href: "https://vly.ai" },
-        { name: "Marketplace", href: "https://vly.ai" },
         { name: "Features", href: "https://vly.ai" },
-        { name: "Integrations", href: "https://vly.ai" },
         { name: "Pricing", href: "https://vly.ai" },
+        { name: "Integrations", href: "https://vly.ai" },
+        { name: "Enterprise", href: "https://vly.ai" },
+        { name: "Security", href: "https://vly.ai" },
+        { name: "API", href: "https://vly.ai" },
       ],
     },
     {
       title: "Company",
       links: [
         { name: "About", href: "/about" },
-        { name: "Team", href: "https://vly.ai" },
+        { name: "Customers", href: "https://vly.ai" },
         { name: "Blog", href: "https://vly.ai" },
-        { name: "Careers", href: "https://vly.ai" },
+        { name: "Partners", href: "https://vly.ai" },
         { name: "Contact", href: "/contact" },
         { name: "Privacy", href: "https://vly.ai" },
       ],
@@ -24,17 +24,17 @@ const sections = [
     {
       title: "Resources",
       links: [
-        { name: "Help", href: "https://vly.ai" },
-        { name: "Sales", href: "https://vly.ai" },
-        { name: "Advertise", href: "https://vly.ai" },
+        { name: "Documentation", href: "https://vly.ai" },
+        { name: "Support", href: "https://vly.ai" },
+        { name: "Training", href: "https://vly.ai" },
       ],
     },
     {
-      title: "Social",
+      title: "Connect",
       links: [
         { name: "Twitter", href: "https://vly.ai" },
-        { name: "Instagram", href: "https://vly.ai" },
         { name: "LinkedIn", href: "https://vly.ai" },
+        { name: "YouTube", href: "https://vly.ai" },
       ],
     },
   ];
@@ -54,13 +54,13 @@ const sections = [
                   <a href="https://vly.ai">
                     <img
                       src="/logo.png"
-                      alt="blocks for shadcn/ui"
+                      alt="SalesCRM Logo"
                       className="h-10"
                     />
                   </a>
-                  <p className="text-xl font-semibold">vly.ai</p>
+                  <p className="text-xl font-semibold">SalesCRM</p>
                 </div>
-                <p className="mt-4 font-bold">Replacing SWEs, one dev at a time.</p>
+                <p className="mt-4 font-bold">Empowering sales teams to close more deals</p>
               </div>
               {sections.map((section, sectionIdx) => (
                 <div key={sectionIdx}>
