@@ -1,15 +1,15 @@
 import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
 
-// The schema configuration for the convex application. Define tables, fields, and indexes here. Provides end-to-end type safety.
-
-export default defineSchema(
-  {
-
-    // Tables go here
-    // do not define createdAt or updatedAt fields
-  },
-  {
-    schemaValidation: false
-  }
-);
+export default defineSchema({
+  contacts: defineTable({
+    name: v.string(),
+    email: v.string(),
+    phoneNumber: v.string(),
+  })
+    .index("by_name", ["name"])
+    .index("by_email", ["email"])
+    .index("by_phone", ["phoneNumber"]),
+}, {
+  schemaValidation: false
+});
